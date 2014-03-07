@@ -8,6 +8,10 @@ public class CarOrder {
 	private UUID id;
 	private Date completionTime;
 	
+	public CarOrder(){
+		this.id = UUID.randomUUID();
+	}
+	
 	public UUID getId() {
 		return id;
 	}
